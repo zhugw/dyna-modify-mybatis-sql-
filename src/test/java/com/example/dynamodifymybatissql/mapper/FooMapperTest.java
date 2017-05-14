@@ -86,6 +86,7 @@ public class FooMapperTest {
 
         System.out.println(fooMapper.getTime());
         System.out.println();
+        // same sql and in the same transaction query directly from cache
         System.out.println(fooMapper.getTime());
         System.out.println();
         // update sql
